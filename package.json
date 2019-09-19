@@ -1,0 +1,30 @@
+{
+  "name": "restapisnode",
+  "version": "1.0.0",
+  "description": "Aprendiendo a crear REST APIs",
+  "main": "index.js",
+  "scripts": {
+    "desarrollo": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "author": "Diego Lucchelli",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8",
+    "multer": "^1.4.2",
+    "node": "^11.15.0",
+    "npm": "^6.11.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.1",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
